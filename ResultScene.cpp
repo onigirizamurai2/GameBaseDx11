@@ -5,7 +5,7 @@
 #include "Engine/Text.h"
 
 ResultScene::ResultScene(GameObject* parent)
-    : GameObject(parent), timer_(0.0f), pText_(nullptr) // 💡pText_を安全のためにnullptr初期化
+    : GameObject(parent), timer_(0.0f), pText_(nullptr)
 {
 }
 
